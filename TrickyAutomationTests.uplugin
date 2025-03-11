@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "3.55.0",
+	"FriendlyName": "TrickyAutomationTests",
+	"Description": "An Unreal Engine plugin used to perform automation tests for Tricky Prototyping Collection plugins.",
+	"Category": "Tricky Prototyping",
+	"CreatedBy": "Artyom \"Tricky_Fat_Cat\" Volkov",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TrickyAutomationTests",
+			"Type": "Runtime",
+			"LoadingPhase": "Editor"
+		}
+	],
+	"Sealed": true,
+	"Plugins": [
+		{
+			"Name": "AutomationUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "TrickyProperties",
+			"Enabled": true
+		},
+		{
+			"Name": "TrickyGameplayObjects",
+			"Enabled": true
+		},
+		{
+			"Name": "TrickyGameMode",
+			"Enabled": true
+		}
+	]
+}
