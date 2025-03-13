@@ -26,7 +26,8 @@ public class TrickyAutomationTests : ModuleRules
 			new string[]
 			{
 				"Core",
-				"AutomationTest"
+				"AutomationTest",
+				"TrickyGameMode"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
